@@ -7,7 +7,7 @@ body{
 }
 
 .head{
-    padding: 16px 200px 200px 200px;
+    padding: 16px 200px 100px 200px;
     display: flex;
     flex-direction: column;
     /* height: 400px; */
@@ -85,10 +85,9 @@ button{
 }
 
 .footer{
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
     height: 72px;
     display: flex;
     justify-content: center;
@@ -96,3 +95,113 @@ button{
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+.imagemid{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3882f6;
+    /* border-color: #3882f6; */
+    border-radius: 8px;
+    flex: 1;
+}
+
+.mid1{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 200px 100px 200px;
+    gap: 48px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.item{
+    /* height: 200px; */
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.midtitle1{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.textmid{
+    text-align: center;
+}
+
+.mid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.whole{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #6f7175;
+}
+
+.author{
+    display: flex;
+    width: 900px;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.actioncontent{
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px 60px;
+    justify-content: space-between;
+    border-radius: 8px;
+    gap: 48px
+}
+
+.actionb{
+    border:2px solid #F9FAF8;
+}
+
+.titleaction{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.subaction{
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+/* .titleaction{
+    font-size: ;
+} */
